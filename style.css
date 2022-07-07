@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  --bg-color: #2f6268;
+  --text-color: #00082F;
+}
+
+a {
+  text-decoration: none;
+}
+
+body.dark {
+  background-image: url(floresta.webp);
+  font-family: 'Roboto', sans-serif;
+  color: var(--text-color);
+}
+
+.container {
+  width: 300px;
+  margin: 60px auto;
+  text-align: center;
+  background: rgba( 255, 255, 255, 0.05 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding: 3.7px;
+  border: var(--bg-color) solid 4px;
+  
+}
+
+h1 {
+  font-size: 32px;
+  margin-top: 24px;
+  margin-bottom: 8px; 
+}
+
+p {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 400;
+  opacity: 0.9;
+  font-size: 18px;
+}
+
+ul {
+  list-style: none;
+  margin: 48px 0;
+}
+
+ul li a {
+  height: 53px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--bg-color);
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 16px;
+  border-radius: 6px;
+  transition: background 400ms;
+}
+
+ul li a:hover{
+  background-color: #244246;
+}
+
+ul li p{
+  text-align: start;
+  width: 40px;
+}
+
+footer {
+  font-weight: 500;
+  font-size: 12px;
+  color: #00082F;
+  opacity: 0.8;
+}
+
+footer:hover{
+ opacity: 1;
+}
+
+footer a {
+  color: #00082F
+}
